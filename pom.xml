@@ -2,14 +2,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.johrstrom</groupId>
 	<artifactId>jmeter-prometheus-plugin</artifactId>
-	<version>0.6.1-SNAPSHOT</version>
+	<version>0.6.1</version>
 	<name>Jmeter-Prometheus Listener Plugin</name>
 	<description>A Jmeter plugin that creates a Prometheus endpoint of results.</description>
 	<url>https://github.com/johrstrom/jmeter-prometheus-plugin</url>
 
 	<properties>
 		<prometheus.version>0.6.0</prometheus.version>
-		<jmeter.version>5.1.1</jmeter.version>
+		<jmeter.version>5.4.1</jmeter.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -196,3 +196,9 @@ This creates 2 jars, a shaded jar that has all the dependencies within it (this 
 ## Feedback
 
 Feel free to open issues against this project, even to ask questions.
+
+## Version
+
+V0.6.1 - set ip to 0.0.0.0, so that can access from other machine
+
+
