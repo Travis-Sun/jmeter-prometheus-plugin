@@ -67,7 +67,7 @@ public class PrometheusServer {
 
             ByteArrayOutputStream response = this.response.get();
             response.reset();
-            OutputStreamWriter osw = new OutputStreamWriter(response);
+            OutputStreamWriter osw = new OutputStreamWriter(response, "UTF-8");
             TextFormat.write004(osw,
                     registry.filteredMetricFamilySamples(parseQuery(query)));
             osw.flush();

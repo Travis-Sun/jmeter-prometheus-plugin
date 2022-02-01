@@ -199,6 +199,7 @@ Feel free to open issues against this project, even to ask questions.
 
 ## Version
 
-V0.6.1 - set ip to 0.0.0.0, so that can access from other machine
+V0.6.1 - set ip to 0.0.0.0, so that can access from other machine.
+V0.6.2 - set httpserver to support utf-8, the can display chinese correctly.
 
 

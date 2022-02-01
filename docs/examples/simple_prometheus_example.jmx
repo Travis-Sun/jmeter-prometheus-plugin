@@ -26,7 +26,7 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="can_fail_sampler" enabled="true">
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="can_fail_sampler 是非成败" enabled="true">
           <stringProp name="TestPlan.comments">This sampler just does something to generate data for the prometheus listener.
 
 Note that just by calling the function in the parameters section assigns the variable &apos;category&apos; which the PrometheusListener plugin will pick up on.</stringProp>
