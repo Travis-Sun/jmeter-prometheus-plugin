@@ -40,7 +40,7 @@ public class PrometheusServer {
 	public static final int PROMETHEUS_PORT_DEFAULT = 9270;
 	
 	public static final String PROMETHEUS_DELAY = "prometheus.delay";
-	public static final int PROMETHEUS_DELAY_DEFAULT = 0;
+	public static final int PROMETHEUS_DELAY_DEFAULT = 5; //let the catch data
 
 	public static final String PROMETHEUS_IP = "prometheus.ip";
 	public static final String PROMETHEUS_IP_DEFAULT = "0.0.0.0";
